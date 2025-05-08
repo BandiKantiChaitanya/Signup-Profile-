@@ -23,13 +23,15 @@ function Signup() {
         }else{
             setErr('Sucessfully Signed UP!')
             setIsSuccess(true)
-            navigate('/profile',{
-                state:{
-                    fullName,
-                    email,
-                    password
-                }
-            })
+            setTimeout(()=>{
+                navigate('/profile',{
+                    state:{
+                        fullName,
+                        email,
+                        password
+                    }
+                })
+            },3000)
         }
         
         
