@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    font-size: 48px;
+    margin: 10px 0px;
+}
+.headerBorder{
+    border-bottom: solid 1px white;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 26px;
+}
+.links li{
+    margin-right: 20px;
+}
+.links a{
+    text-decoration: none;
+}
+.links li a:hover {
+    text-decoration: underline;
+}
+.heading{
+    font-size: 48px;
+}
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 28px;
+    padding: 5px 0;
+  }
+.signup{
+    margin: auto 200px;
+}
+button{
+    background-color: white;
+    font-size: 26px;
+    color: black;
+    padding: 10px 40px;
+}
+.text{
+    font-size: 28px;
+}
